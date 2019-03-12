@@ -19,10 +19,7 @@ public class ShoppingCartShould {
     @Test
     public void calculate_total_price_products_using_list() throws Exception {
         ShoppingCart shoppingCart = new ShoppingCart();
-        List<Integer> prices = new ArrayList<>();
-        prices.add(1);
-        prices.add(2);
-        shoppingCart.add(prices);
+        shoppingCart.add(3);
 
         Assert.assertEquals(3, shoppingCart.calculateTotalPrice());
     }
