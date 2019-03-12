@@ -4,6 +4,9 @@ import implementationChange.ShoppingCart;
 import org.junit.Assert;
 import org.junit.Test;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class ShoppingCartShould {
     @Test
     public void count_number_of_products() throws Exception {
@@ -11,6 +14,17 @@ public class ShoppingCartShould {
         shoppingCart.add(10);
 
         Assert.assertEquals(1, shoppingCart.numberOfProducts());
+    }
+
+    @Test
+    public void calculate_total_price_products_using_list() throws Exception {
+        ShoppingCart shoppingCart = new ShoppingCart();
+        List<Integer> prices = new ArrayList<>();
+        prices.add(1);
+        prices.add(2);
+        shoppingCart.add(prices);
+
+        Assert.assertEquals(3, shoppingCart.calculateTotalPrice());
     }
 
     @Test
