@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="98587754-ddb2-4086-820b-5acc228320fc" name="Default Changelist" comment="" />
+    <list default="true" id="98587754-ddb2-4086-820b-5acc228320fc" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/moveResponsibility/Greeter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/moveResponsibility/GreeterTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/moveResponsibility/God.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/moveResponsibility/Calculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/unit/GodShould.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/unit/CalculatorShould.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -9,44 +15,56 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/ultimate_refactoring_java$All.ic" NAME="All Coverage Results" MODIFIED="1552390201004" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="221" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/implementationChange/ShoppingCart.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/moveResponsibility/Calculator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+            <state relative-caret-position="30">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
               <folding>
-                <element signature="e#188#189#0" expanded="true" />
-                <element signature="e#216#217#0" expanded="true" />
+                <element signature="e#124#125#0" expanded="true" />
+                <element signature="e#194#195#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/moveResponsibility/God.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/unit/CalculatorShould.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+            <state relative-caret-position="105">
+              <caret line="10" column="40" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/implementationChange/ExternalCartClient.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/moveResponsibility/Greeter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="50" selection-start-line="8" selection-start-column="50" selection-end-line="8" selection-end-column="50" />
+            <state relative-caret-position="30">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/implementationChange/LocalCartClient.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/moveResponsibility/GreeterTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+            <state relative-caret-position="75">
+              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+              <folding>
+                <element signature="e#114#115#0" expanded="true" />
+                <element signature="e#154#155#0" expanded="true" />
+                <element signature="e#196#197#0" expanded="true" />
+                <element signature="e#234#235#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -72,7 +90,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/unit/ShoppingCartShould.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
+            <state relative-caret-position="240">
               <caret line="18" column="29" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
             </state>
           </provider>
@@ -107,6 +125,13 @@
       </file>
     </leaf>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit4 Test Class" />
+      </list>
+    </option>
+  </component>
   <component name="FindInProjectRecents">
     <replaceStrings>
       <replace />
@@ -128,7 +153,10 @@
         <option value="$PROJECT_DIR$/src/main/java/valueAndReference/SomeType.java" />
         <option value="$PROJECT_DIR$/src/test/java/unit/ShoppingCartShould.java" />
         <option value="$PROJECT_DIR$/src/main/java/implementationChange/ShoppingCart.java" />
+        <option value="$PROJECT_DIR$/src/test/java/moveResponsibility/GodTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/moveResponsibility/GreeterTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/moveResponsibility/God.java" />
+        <option value="$PROJECT_DIR$/src/main/java/moveResponsibility/Calculator.java" />
       </list>
     </option>
   </component>
@@ -154,8 +182,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -180,6 +208,14 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ultimate-refactoring-java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ultimate-refactoring-java" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="dependencyChange" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ultimate-refactoring-java" type="b2602c69:ProjectViewProjectNode" />
@@ -216,6 +252,14 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="moveResponsibility" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ultimate-refactoring-java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ultimate-refactoring-java" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="unit" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -225,8 +269,18 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552383498937" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552390348309" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="moveResponsibility" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -269,33 +323,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ShoppingCartShould.calculate_total_price_products_using_list" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="GreeterTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="refactoring" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="unit.*" />
+          <option name="PATTERN" value="moveResponsibility.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="unit" />
-      <option name="MAIN_CLASS_NAME" value="unit.ShoppingCartShould" />
-      <option name="METHOD_NAME" value="calculate_total_price_products_using_list" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="moveResponsibility" />
+      <option name="MAIN_CLASS_NAME" value="moveResponsibility.GreeterTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ShoppingCartShould.count_number_of_products_using_list" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="GreeterTest.sayHello" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="refactoring" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="unit.*" />
+          <option name="PATTERN" value="moveResponsibility.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="unit" />
-      <option name="MAIN_CLASS_NAME" value="unit.ShoppingCartShould" />
-      <option name="METHOD_NAME" value="count_number_of_products_using_list" />
+      <option name="PACKAGE_NAME" value="moveResponsibility" />
+      <option name="MAIN_CLASS_NAME" value="moveResponsibility.GreeterTest" />
+      <option name="METHOD_NAME" value="sayHello" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -335,18 +388,18 @@
     <list>
       <item itemvalue="JUnit.All" />
       <item itemvalue="JUnit.AuthenticationServiceShould" />
-      <item itemvalue="JUnit.ShoppingCartShould.calculate_total_price_products_using_list" />
-      <item itemvalue="JUnit.ShoppingCartShould.count_number_of_products_using_list" />
       <item itemvalue="JUnit.YouShouldUnderstandValuesAndReferences" />
       <item itemvalue="JUnit.YouShouldUnderstandValuesAndReferences.because_its_fundamental" />
+      <item itemvalue="JUnit.GreeterTest.sayHello" />
+      <item itemvalue="JUnit.GreeterTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.GreeterTest" />
+        <item itemvalue="JUnit.GreeterTest.sayHello" />
         <item itemvalue="JUnit.YouShouldUnderstandValuesAndReferences.because_its_fundamental" />
         <item itemvalue="JUnit.YouShouldUnderstandValuesAndReferences" />
         <item itemvalue="JUnit.AuthenticationServiceShould" />
-        <item itemvalue="JUnit.ShoppingCartShould.calculate_total_price_products_using_list" />
-        <item itemvalue="JUnit.ShoppingCartShould.count_number_of_products_using_list" />
       </list>
     </recent_temporary>
   </component>
@@ -379,24 +432,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="All - 2019.03.12 at 10h 21m 25s.xml">
-      <configuration name="All" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ShoppingCartShould_count_number_of_products_using_list - 2019.03.12 at 10h 23m 23s.xml">
-      <configuration name="ShoppingCartShould.count_number_of_products_using_list" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ShoppingCartShould_count_number_of_products_using_list - 2019.03.12 at 10h 25m 37s.xml">
-      <configuration name="ShoppingCartShould.count_number_of_products_using_list" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ShoppingCartShould_count_number_of_products_using_list - 2019.03.12 at 10h 26m 12s.xml">
-      <configuration name="ShoppingCartShould.count_number_of_products_using_list" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ShoppingCartShould_count_number_of_products_using_list - 2019.03.12 at 10h 26m 30s.xml">
-      <configuration name="ShoppingCartShould.count_number_of_products_using_list" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ShoppingCartShould_count_number_of_products_using_list - 2019.03.12 at 10h 26m 49s.xml">
-      <configuration name="ShoppingCartShould.count_number_of_products_using_list" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="ShoppingCartShould_count_number_of_products_using_list - 2019.03.12 at 10h 27m 27s.xml">
       <configuration name="ShoppingCartShould.count_number_of_products_using_list" configurationId="JUnit" />
     </history-entry>
@@ -409,12 +444,30 @@
     <history-entry file="All - 2019.03.12 at 10h 36m 39s.xml">
       <configuration name="All" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="GodTest_sayHello - 2019.03.12 at 12h 26m 22s.xml">
+      <configuration name="GodTest.sayHello" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GreeterTest_sayHello - 2019.03.12 at 12h 29m 23s.xml">
+      <configuration name="GreeterTest.sayHello" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All - 2019.03.12 at 12h 29m 27s.xml">
+      <configuration name="All" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GreeterTest_sayHello - 2019.03.12 at 12h 29m 40s.xml">
+      <configuration name="GreeterTest.sayHello" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GreeterTest - 2019.03.12 at 12h 29m 45s.xml">
+      <configuration name="GreeterTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All - 2019.03.12 at 12h 30m 02s.xml">
+      <configuration name="All" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1680" height="1027" extended-state="0" />
+    <frame x="0" y="23" width="1680" height="1027" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49920255" visible="true" weight="0.21672772" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49920255" visible="true" weight="0.21916972" />
       <window_info id="Structure" order="1" sideWeight="0.50079745" side_tool="true" weight="0.20695971" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -422,7 +475,7 @@
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Find" order="1" visible="true" weight="0.32941177" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32941177" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -432,6 +485,7 @@
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32941177" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32941177" />
+      <window_info anchor="right" id="Coverage" side_tool="true" weight="0.32967034" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -467,13 +521,6 @@
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/unit/AuthenticationServiceShould.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/untestableLegacy/Encryptor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1065">
@@ -485,13 +532,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dependencyChange/Finder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -526,27 +566,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/implementationChange/ExternalCartClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="50" selection-start-line="8" selection-start-column="50" selection-end-line="8" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/implementationChange/LocalCartClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/unit/ShoppingCartShould.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="29" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/dependencyChange/User.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -565,6 +584,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/implementationChange/ShoppingCart.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+          <folding>
+            <element signature="e#188#189#0" expanded="true" />
+            <element signature="e#216#217#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/implementationChange/ExternalCartClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="50" selection-start-line="8" selection-start-column="50" selection-end-line="8" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/implementationChange/LocalCartClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -579,21 +623,76 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/implementationChange/ShoppingCart.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/unit/ShoppingCartShould.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        <state relative-caret-position="240">
+          <caret line="18" column="29" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/unit/AuthenticationServiceShould.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/signatureChange/Role.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/signatureChange/Player.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/moveResponsibility/Greeter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dependencyChange/Finder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/moveResponsibility/GreeterTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
           <folding>
-            <element signature="e#188#189#0" expanded="true" />
-            <element signature="e#216#217#0" expanded="true" />
+            <element signature="e#114#115#0" expanded="true" />
+            <element signature="e#154#155#0" expanded="true" />
+            <element signature="e#196#197#0" expanded="true" />
+            <element signature="e#234#235#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/moveResponsibility/God.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/unit/CalculatorShould.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+        <state relative-caret-position="105">
+          <caret line="10" column="40" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/moveResponsibility/Calculator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding>
+            <element signature="e#124#125#0" expanded="true" />
+            <element signature="e#194#195#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
