@@ -1,5 +1,6 @@
 package unit;
 
+import moveResponsibility.Amount;
 import moveResponsibility.Invoice;
 import org.junit.Test;
 
@@ -11,7 +12,7 @@ public class InvoiceShould {
 
     @Test
     public void calculate_net_amount() throws Exception {
-        Invoice invoice = new Invoice(new BigDecimal("100"), new BigDecimal("10"));
+        Invoice invoice = new Invoice(new Amount(new BigDecimal("100")), new Amount(new BigDecimal("10")));
         String result = invoice.calculateNetAmount();
         assertThat(result).isEqualTo("90.0");
     }

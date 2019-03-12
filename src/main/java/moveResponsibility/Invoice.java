@@ -3,19 +3,19 @@ package moveResponsibility;
 import java.math.BigDecimal;
 
 public class Invoice {
-    public final BigDecimal grossAmount;
-    public final BigDecimal taxPercentage;
+    private final Amount grossAmount;
+    private final Amount taxPercentage;
     public int numberOfItems;
 
-    public Invoice(BigDecimal grossAmount, BigDecimal taxPercentage) {
+    public Invoice(Amount grossAmount, Amount taxPercentage) {
         this.grossAmount = grossAmount;
         this.taxPercentage = taxPercentage;
     }
 
     public String calculateNetAmount() {
-        return grossAmount.subtract(
-                grossAmount.multiply(
-                        taxPercentage.divide(
+        return grossAmount.value.subtract(
+                grossAmount.value.multiply(
+                        taxPercentage.value.divide(
                                 new BigDecimal("100")
                         )))
                 .toString();
