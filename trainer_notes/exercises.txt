@@ -31,13 +31,16 @@ Refactoring workshop notes:
        - change the interface so that NewVehicleQuery replaces OldVehicleQuery
          - the old class extends the new one, then pull members up and finally inline
   - dependencyChange:
-      - SpecificFinder: replace inheritance with delegation
-      - Finder: add the Parser as a dependency
+      - SpecificFinder:
+          - automagic: replace inheritance with delegation
+          - manually:
+               - use "this" for have a single instance of finder
+               - introduce finder parameter in constructor in the last step
    - pipelines:
        - to streams using narrow changes
-   - legacy code -> Entity
-      - less surprise
-      - sinks for unit testing
-      - responsibility
- 
+   - legacy code
+      Entity: less surprise, sinks for unit testing, responsibility
+      Encryptor
+   - Replace Primitive Constants with Type
+   - Safe unwrap
  
