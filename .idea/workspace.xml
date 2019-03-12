@@ -128,6 +128,7 @@
         <option value="$PROJECT_DIR$/src/main/java/valueAndReference/SomeType.java" />
         <option value="$PROJECT_DIR$/src/test/java/unit/ShoppingCartShould.java" />
         <option value="$PROJECT_DIR$/src/main/java/implementationChange/ShoppingCart.java" />
+        <option value="$PROJECT_DIR$/src/main/java/moveResponsibility/God.java" />
       </list>
     </option>
   </component>
@@ -138,11 +139,10 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="38" />
-    <option name="y" value="29" />
-    <option name="width" value="1597" />
-    <option name="height" value="1015" />
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1680" />
+    <option name="height" value="1027" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -335,10 +335,10 @@
     <list>
       <item itemvalue="JUnit.All" />
       <item itemvalue="JUnit.AuthenticationServiceShould" />
+      <item itemvalue="JUnit.ShoppingCartShould.calculate_total_price_products_using_list" />
+      <item itemvalue="JUnit.ShoppingCartShould.count_number_of_products_using_list" />
       <item itemvalue="JUnit.YouShouldUnderstandValuesAndReferences" />
       <item itemvalue="JUnit.YouShouldUnderstandValuesAndReferences.because_its_fundamental" />
-      <item itemvalue="JUnit.ShoppingCartShould.count_number_of_products_using_list" />
-      <item itemvalue="JUnit.ShoppingCartShould.calculate_total_price_products_using_list" />
     </list>
     <recent_temporary>
       <list>
