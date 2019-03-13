@@ -7,31 +7,7 @@ public abstract class Encryptor {
     public abstract String encrypt(int character);
 
     public String cryptWord(String word) {
-        if (word.contains(" "))
-            throw new InvalidParameterException();
-
-        char[] wordArray = word.toCharArray();
-        String newWord = "";
-        for (int i = 0; i < word.length(); i++) {
-            int charValue = wordArray[i];
-            newWord += encrypt(charValue + 2);
-        }
-
-        return newWord;
-    }
-
-    public String cryptWordToNumbers(String word) {
-        if (word.contains(" "))
-            throw new InvalidParameterException();
-
-        char[] wordArray = word.toCharArray();
-        String newWord = "";
-        for (int i = 0; i < word.length(); i++) {
-            int charValue = wordArray[i];
-            newWord += encrypt(charValue + 2);
-        }
-
-        return newWord;
+        return cryptSentence(word);
     }
 
     public String cryptWord(String word, String charsToReplace) {
@@ -52,26 +28,25 @@ public abstract class Encryptor {
         return String.valueOf(result);
     }
 
-    public String cryptSentence(String sentence) {
-        char[] sentenceArray = sentence.toCharArray();
+    public String cryptSentence(String word) {
+        char[] sentenceArray = word.toCharArray();
         String newWord = "";
-        for (int i = 0; i < sentence.length(); i++) {
+        for (int i = 0; i < word.length(); i++) {
             int charValue = sentenceArray[i];
-            newWord += String.valueOf((char) (charValue + 2));
+            newWord += encrypt(charValue + 2);
         }
 
         return newWord;
     }
 
-    public String[] getWords(String sentence) {
-        return sentence.split(" ");
-    }
-
     public void printWords(String sentence) {
-        String[] words = getWords(sentence);
+        String[] words = sentence.split(" ");
         for (String word : words) {
-            System.out.print("<" + word + ">");
+            log(word);
         }
     }
 
+    void log(String word) {
+        System.out.print("<" + word + ">");
+    }
 }
