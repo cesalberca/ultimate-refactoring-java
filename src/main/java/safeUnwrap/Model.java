@@ -1,19 +1,19 @@
 package safeUnwrap;
 
 public class Model {
-    private String Color;
-    private int Amount;
+    private String color;
+    private int amount;
 
     public Model(String color, int amount) {
-        Color = color;
-        Amount = amount;
+        this.color = color;
+        this.amount = amount;
     }
 
     public String getColor() {
-        return Color;
+        return color;
     }
 
     public int getAmount() {
-        return Amount;
+        return amount;
     }
 }
